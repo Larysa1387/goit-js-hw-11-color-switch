@@ -1,0 +1,21 @@
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.container button {
+  margin-right: 20px;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.container button:hover {
+  cursor: pointer;
+  transform: scaleX(1.1);
+  background-color: rgb(215, 241, 213);
+  box-shadow: 0px 3px 1px rgb(0 0 0 / 10%), 0px 1px 2px rgb(0 0 0 / 8%), 0px 2px 2px rgb(0 0 0 / 12%);
+}
